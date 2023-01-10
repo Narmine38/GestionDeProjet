@@ -1,0 +1,532 @@
+/*
+Theme Name: Capitaine
+Theme URI: https://capitainewp.io
+Author: Maxime BERNARD-JACQUET
+Author URI: https://dysign.fr
+Description: Mon premier thème !
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    /* or 40px */
+
+
+    color: #E3E2E0;
+}
+
+#logo {
+    width: 132px;
+    height: 51px;
+    left: 164px;
+    top: 51px;
+}
+
+#Home {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FF8A00;
+}
+
+#Menu {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #311F09;
+}
+
+#About {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #311F09;
+}
+
+#Order {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #311F09;
+}
+
+#Reservation {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #311F09;
+}
+
+#Contact {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #311F09;
+}
+
+.btn {
+    border-radius: 133px;
+!important;
+    width: 112px;
+!important;
+    height: 50px;
+!important;
+}
+
+/* header */
+/* footer */
+
+footer {
+    background: #311F09;
+}
+
+.footer-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 200%;
+    /* identical to box height, or 50px */
+
+
+    color: #FF8A00;
+}
+
+#Homefooter {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    padding: 0;
+
+    /* identical to box height, or 40px */
+
+
+    color: #E3E2E0;
+}
+
+#Menufooter {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    padding: 0;
+
+    /* identical to box height, or 40px */
+
+
+    color: #E3E2E0;
+}
+
+#Orderfooter {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    padding: 0;
+
+    /* identical to box height, or 40px */
+
+
+    color: #E3E2E0;
+}
+
+#Carteringfooter {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    padding: 0;
+
+    /* identical to box height, or 40px */
+
+
+    color: #E3E2E0;
+}
+
+#Reservationfooter {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    padding: 0;
+
+    /* identical to box height, or 40px */
+
+
+    color: #E3E2E0;
+}
+
+#Aboutfooter {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    padding: 0;
+
+    /* identical to box height, or 40px */
+
+
+    color: #E3E2E0;
+}
+
+#Testimonialfooter {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    padding: 0;
+
+    /* identical to box height, or 40px */
+
+
+    color: #E3E2E0;
+}
+
+#Eventfooter {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    padding: 0;
+
+    /* identical to box height, or 40px */
+
+
+    color: #E3E2E0;
+}
+
+#adress {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    padding: 0;
+    /* identical to box height, or 40px */
+
+
+    color: #E3E2E0;
+}
+
+#mail {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    padding: 0;
+
+    /* identical to box height, or 40px */
+
+
+    color: #E3E2E0;
+}
+
+#num {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    padding: 0;
+
+    /* identical to box height, or 40px */
+
+
+    color: #E3E2E0;
+}
+
+span {
+    padding: 0;
+}
+
+/* footer */
+
+section ul{
+    list-style: none;
+
+}
+
+h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+    /* or 88px */
+    color: #311F09;
+}
+
+p{
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    /* or 40px */
+    color: #5C4529;
+}
+
+h3{
+    font-family: 'Tinos', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 200%;
+    /* identical to box height, or 160px */
+    color: #311F09;
+}
+
+/* section1 */
+#section_container1{
+    max-width: 1200px;
+}
+#btnresto{
+    width: 146px;
+    height: 40px;
+    background: rgba(255, 138, 0, 0.1);
+    border-radius: 126px;
+    border: rgba(255, 138, 0, 0.1);
+    font-family: 'Raleway', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110%;
+    /* identical to box height, or 20px */
+    color: #FF8A00;
+}
+#btnorder{
+    width: 232.42px;
+    height: 74.44px;
+    background: #FF8A00;
+    border-radius: 162.942px;
+    border: #FF8A00;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 200%;
+    /* or 40px */
+    color: #FFFFFF;
+}
+#btnreservatiob{
+    width: 232.42px;
+    height: 74.44px;
+    background: #3FA72F;
+    border-radius: 162.942px;
+    border: #3FA72F;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 200%;
+    /* or 40px */
+    color: #FFFFFF;
+}
+/* section1 */
+
+/* section2*/
+#section2{
+    background: rgba(63,198,110,0.4)
+}
+#section_container2{
+    max-width: 1200px;
+}
+.delizioso{
+    font-family: 'Tinos', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+    /* or 88px */
+    color: #FF8A00;
+}
+/* section2*/
+
+/* section3*/
+#section_container3{
+    max-width: 1200px;
+}
+/* section3*/
+
+/* section4*/
+#section_container4{
+    background: rgba(255,244,231,0.4);
+}
+/* section4*/
+
+/* section5*/
+.name{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 200%;
+    /* identical to box height, or 50px */
+    color: #311F09;
+}
+.poste{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 200%;
+    /* identical to box height, or 50px */
+
+
+    color: #A08D76;
+
+}
+/* section5*/
+
+/* section6*/
+#section6{
+    background: rgba(208,204,199,0.4);
+}
+#starla{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 200%;
+    /* identical to box height, or 60px */
+    text-align: center;
+    color: #311F09;
+}
+.presentation{
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    /* or 40px */
+    text-align: center;
+    color: #5C4529;
+}
+/* section6*/
+
+/* section7*/
+#section7{
+    height: 588px;
+}
+#section_container7{
+    max-width: 1200px;
+    height: 589px;
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+}
+#openfrom{
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 200%;
+    /* identical to box height, or 160px */
+    color: #FFFFFF;
+}
+#date{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 200%;
+    /* identical to box height, or 80px */
+    text-align: center;
+    color: #FFFFFF;
+}
+#heur{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    /* identical to box height, or 40px */
+    text-align: center;
+    color: #FFFFFF;
+}
+#btnorderend{
+    width: 232.42px;
+    height: 74.44px;
+    background: #FF8A00;
+    border-radius: 162.942px;
+    border: #FF8A00;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 200%;
+    /* or 40px */
+    color: #FFFFFF;
+}
+#btnreservatiobend{
+    width: 232.42px;
+    height: 74.44px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 162.942px;
+    border: rgba(255, 255, 255, 0.95);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 200%;
+    /* or 40px */
+    color: #311F09;
+}
+/* section7*/
